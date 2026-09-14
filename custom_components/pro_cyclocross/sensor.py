@@ -27,6 +27,7 @@ SERIES_LABELS = {
     "world_cup": "UCI World Cup",
     "x2o_trofee": "X2O Trofee",
     "hg_cross": "HG Cross",
+    "world_championships": "UCI World Championships",
 }
 
 

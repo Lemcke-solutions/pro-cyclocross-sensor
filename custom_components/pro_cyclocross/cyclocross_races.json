@@ -211,6 +211,38 @@
       "series": "x2o_trofee",
       "location": "Brussels, Belgium",
       "date": "2027-02-14"
+    },
+    {
+      "name": {
+        "en": "UCI Cyclocross World Championships – Elite Women",
+        "nl": "WK Veldrijden – Elite Vrouwen",
+        "fr": "Championnats du monde de cyclo-cross – Elite Dames",
+        "de": "Cyclocross-Weltmeisterschaft – Elite Frauen",
+        "it": "Campionati del mondo di ciclocross – Elite Donne",
+        "es": "Campeonato del Mundo de Ciclocrós – Élite Femenino",
+        "da": "VM i cyclocross – Elite kvinder",
+        "nb": "VM i sykkelcross – Elite kvinner",
+        "pt": "Campeonato do Mundo de Ciclocrosse – Elite Feminino"
+      },
+      "series": "world_championships",
+      "location": "Oostende, Belgium",
+      "date": "2027-01-30"
+    },
+    {
+      "name": {
+        "en": "UCI Cyclocross World Championships – Elite Men",
+        "nl": "WK Veldrijden – Elite Mannen",
+        "fr": "Championnats du monde de cyclo-cross – Elite Messieurs",
+        "de": "Cyclocross-Weltmeisterschaft – Elite Männer",
+        "it": "Campionati del mondo di ciclocross – Elite Uomini",
+        "es": "Campeonato del Mundo de Ciclocrós – Élite Masculino",
+        "da": "VM i cyclocross – Elite mænd",
+        "nb": "VM i sykkelcross – Elite menn",
+        "pt": "Campeonato do Mundo de Ciclocrosse – Elite Masculino"
+      },
+      "series": "world_championships",
+      "location": "Oostende, Belgium",
+      "date": "2027-01-31"
     }
   ]
 }

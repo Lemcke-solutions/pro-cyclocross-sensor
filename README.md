@@ -9,7 +9,9 @@ The integration reads `cyclocross_races.json` (bundled in the integration direct
 - **`current_cx_*`** — a race happening **today**; state is `0`
 - **`next_cx_*`** — the next upcoming race; state = days until start
 
-Race names are displayed in the language configured in your Home Assistant instance where a translation is available, otherwise the original name is shown. Sensors are grouped into devices per competition — **Pro Cyclocross — Superprestige**, **Pro Cyclocross — UCI World Cup**, **Pro Cyclocross — X2O Trofee** and **Pro Cyclocross — HG Cross** — all listed under the Lemcke Solutions manufacturer.
+Race names are displayed in the language configured in your Home Assistant instance where a translation is available, otherwise the original name is shown. Sensors are grouped into devices per competition — **Pro Cyclocross — Superprestige**, **Pro Cyclocross — UCI World Cup**, **Pro Cyclocross — X2O Trofee**, **Pro Cyclocross — HG Cross** and **Pro Cyclocross — UCI World Championships** — all listed under the Lemcke Solutions manufacturer.
+
+The UCI World Championships has separate Elite Women's and Elite Men's races on different days; each is a distinct entry in the calendar, so `next_cx_world_championships_1` automatically follows whichever race is next (women's race first, then men's).
 
 ### Sensor naming
 
@@ -20,7 +22,7 @@ sensor.{status}_cx_{series}_{slot}
 | Part | Values |
 |---|---|
 | `status` | `current` or `next` |
-| `series` | `superprestige`, `world_cup`, `x2o_trofee`, `hg_cross` |
+| `series` | `superprestige`, `world_cup`, `x2o_trofee`, `hg_cross`, `world_championships` |
 | `slot` | `1`, `2`, … (normally just `1`) |
 
 **Examples:**
@@ -31,6 +33,7 @@ sensor.{status}_cx_{series}_{slot}
 | `sensor.next_cx_world_cup_1` | Next upcoming UCI World Cup round |
 | `sensor.next_cx_hg_cross_1` | Next upcoming HG Cross race |
 | `sensor.next_cx_x2o_trofee_1` | Next upcoming X2O Trofee race |
+| `sensor.next_cx_world_championships_1` | Next upcoming World Championships race (women's, then men's) |
 
 A slot with no race assigned has state `unknown`.
 
@@ -113,6 +116,7 @@ The integration ships with a bundled `cyclocross_races.json` that contains the 2
 - **UCI Cyclocross World Cup**
 - **X2O Badkamers Trofee**
 - **HG Cross** (formerly Exact Cross)
+- **UCI Cyclocross World Championships** (Elite Women and Elite Men)
 
 ### Something missing or incorrect?
 
@@ -127,7 +131,9 @@ If a race is missing, has wrong dates, or is categorised incorrectly, feel free 
 }
 ```
 
-`series` must be one of `superprestige`, `world_cup`, `x2o_trofee` or `hg_cross`.
+`series` must be one of `superprestige`, `world_cup`, `x2o_trofee`, `hg_cross` or `world_championships`.
+
+`name` may be a plain string, or an object of per-language translations (as used for the World Championships entries) with `en` as the fallback for missing languages.
 
 ### Updating for a new season
 
