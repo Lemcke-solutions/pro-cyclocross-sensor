@@ -1,0 +1,16 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Pro Cyclocross Sensor",
+        "description": "Stelt sensoren in voor veldritten van de Superprestige, UCI Wereldbeker, X2O Trofee en HG Cross. Wedstrijdnamen worden automatisch weergegeven in de taal van je Home Assistant."
+      }
+    },
+    "error": {
+      "unknown": "Onverwachte fout"
+    },
+    "abort": {
+      "already_configured": "Integratie is al geconfigureerd."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Pro Cyclocross Sensor",
+        "description": "Richtet Sensoren für Radcross-Rennen der Superprestige, des UCI-Weltcups, des X2O Trofee und des HG Cross ein. Rennnamen werden automatisch in der Sprache deines Home Assistant angezeigt."
+      }
+    },
+    "error": {
+      "unknown": "Unerwarteter Fehler"
+    },
+    "abort": {
+      "already_configured": "Integration ist bereits konfiguriert."
+    }
+  }
+}

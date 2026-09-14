@@ -1,0 +1,16 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Pro Cyclocross Sensor",
+        "description": "Configura i sensori per le gare di ciclocross di Superprestige, Coppa del Mondo UCI, X2O Trofee e HG Cross. I nomi delle gare vengono mostrati automaticamente nella lingua del tuo Home Assistant."
+      }
+    },
+    "error": {
+      "unknown": "Errore imprevisto"
+    },
+    "abort": {
+      "already_configured": "L'integrazione è già configurata."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "season": "2026-2027",
+  "last_updated": "2026-09-14",
+  "races": [
+    {
+      "name": "Druivencross Overijse",
+      "series": "superprestige",
+      "location": "Overijse, Belgium",
+      "date": "2026-10-25"
+    },
+    {
+      "name": "Koppenbergcross",
+      "series": "x2o_trofee",
+      "location": "Oudenaarde, Belgium",
+      "date": "2026-11-01"
+    },
+    {
+      "name": "Mosselcross Dendermonde",
+      "series": "hg_cross",
+      "location": "Dendermonde, Belgium",
+      "date": "2026-10-11"
+    },
+    {
+      "name": "Koksijde World Cup",
+      "series": "world_cup",
+      "location": "Koksijde, Belgium",
+      "date": "2026-12-20"
+    }
+  ]
+}

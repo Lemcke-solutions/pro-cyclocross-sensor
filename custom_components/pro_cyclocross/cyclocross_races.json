@@ -1,0 +1,216 @@
+{
+  "season": "2026-2027",
+  "last_updated": "2026-09-14",
+  "races": [
+    {
+      "name": "Berencross Meulebeke",
+      "series": "hg_cross",
+      "location": "Meulebeke, Belgium",
+      "date": "2026-10-17"
+    },
+    {
+      "name": "Mosselcross Dendermonde",
+      "series": "hg_cross",
+      "location": "Dendermonde, Belgium",
+      "date": "2026-10-11"
+    },
+    {
+      "name": "Heerderstrandcross",
+      "series": "hg_cross",
+      "location": "Heerde, Netherlands",
+      "date": "2026-10-24"
+    },
+    {
+      "name": "Druivencross Overijse",
+      "series": "superprestige",
+      "location": "Overijse, Belgium",
+      "date": "2026-10-25"
+    },
+    {
+      "name": "Koppenbergcross",
+      "series": "x2o_trofee",
+      "location": "Oudenaarde, Belgium",
+      "date": "2026-11-01"
+    },
+    {
+      "name": "Jaarmarktcross Niel",
+      "series": "superprestige",
+      "location": "Niel, Belgium",
+      "date": "2026-11-11"
+    },
+    {
+      "name": "Bollekescross",
+      "series": "x2o_trofee",
+      "location": "Hamme-Zogge, Belgium",
+      "date": "2026-11-15"
+    },
+    {
+      "name": "Aardbeiencross Merksplas",
+      "series": "superprestige",
+      "location": "Merksplas, Belgium",
+      "date": "2026-11-14"
+    },
+    {
+      "name": "be-MINE Cross Beringen",
+      "series": "x2o_trofee",
+      "location": "Beringen, Belgium",
+      "date": "2026-11-22"
+    },
+    {
+      "name": "Rapencross Lokeren",
+      "series": "hg_cross",
+      "location": "Lokeren, Belgium",
+      "date": "2026-11-21"
+    },
+    {
+      "name": "Avondcross Middelkerke",
+      "series": "superprestige",
+      "location": "Middelkerke, Belgium",
+      "date": "2026-11-05"
+    },
+    {
+      "name": "Ostrava World Cup",
+      "series": "world_cup",
+      "location": "Ostrava, Czech Republic",
+      "date": "2026-11-27"
+    },
+    {
+      "name": "Tábor World Cup",
+      "series": "world_cup",
+      "location": "Tábor, Czech Republic",
+      "date": "2026-11-29"
+    },
+    {
+      "name": "Ruddervoorde",
+      "series": "superprestige",
+      "location": "Ruddervoorde, Belgium",
+      "date": "2026-12-06"
+    },
+    {
+      "name": "Glasgow World Cup",
+      "series": "world_cup",
+      "location": "Glasgow, Great Britain",
+      "date": "2026-12-13"
+    },
+    {
+      "name": "Zilvermeercross Mol",
+      "series": "hg_cross",
+      "location": "Mol, Belgium",
+      "date": "2026-12-17"
+    },
+    {
+      "name": "Antwerp World Cup",
+      "series": "world_cup",
+      "location": "Antwerp, Belgium",
+      "date": "2026-12-19"
+    },
+    {
+      "name": "Koksijde World Cup",
+      "series": "world_cup",
+      "location": "Koksijde, Belgium",
+      "date": "2026-12-20"
+    },
+    {
+      "name": "Plage Cross Hofstade",
+      "series": "x2o_trofee",
+      "location": "Hofstade, Belgium",
+      "date": "2026-12-22"
+    },
+    {
+      "name": "Azencross Loenhout",
+      "series": "x2o_trofee",
+      "location": "Loenhout, Belgium",
+      "date": "2026-12-23"
+    },
+    {
+      "name": "Kerstcross Heusden-Zolder",
+      "series": "superprestige",
+      "location": "Heusden-Zolder, Belgium",
+      "date": "2026-12-25"
+    },
+    {
+      "name": "Gavere World Cup",
+      "series": "world_cup",
+      "location": "Gavere, Belgium",
+      "date": "2026-12-26"
+    },
+    {
+      "name": "Namur World Cup",
+      "series": "world_cup",
+      "location": "Namur, Belgium",
+      "date": "2026-12-27"
+    },
+    {
+      "name": "Diegemcross",
+      "series": "superprestige",
+      "location": "Diegem, Belgium",
+      "date": "2026-12-30"
+    },
+    {
+      "name": "Besançon World Cup",
+      "series": "world_cup",
+      "location": "Besançon, France",
+      "date": "2026-12-29"
+    },
+    {
+      "name": "GP Sven Nys Baal",
+      "series": "x2o_trofee",
+      "location": "Baal, Belgium",
+      "date": "2027-01-01"
+    },
+    {
+      "name": "Gullegemcross",
+      "series": "superprestige",
+      "location": "Gullegem, Belgium",
+      "date": "2027-01-02"
+    },
+    {
+      "name": "Zonhoven World Cup",
+      "series": "world_cup",
+      "location": "Zonhoven, Belgium",
+      "date": "2027-01-03"
+    },
+    {
+      "name": "Benidorm World Cup",
+      "series": "world_cup",
+      "location": "Benidorm, Spain",
+      "date": "2027-01-17"
+    },
+    {
+      "name": "Hamme World Cup",
+      "series": "world_cup",
+      "location": "Hamme, Belgium",
+      "date": "2027-01-23"
+    },
+    {
+      "name": "Hoogerheide World Cup",
+      "series": "world_cup",
+      "location": "Hoogerheide, Netherlands",
+      "date": "2027-01-24"
+    },
+    {
+      "name": "Parkcross Maldegem",
+      "series": "hg_cross",
+      "location": "Maldegem, Belgium",
+      "date": "2027-02-03"
+    },
+    {
+      "name": "Krawatencross Lille",
+      "series": "x2o_trofee",
+      "location": "Lille, Belgium",
+      "date": "2027-02-07"
+    },
+    {
+      "name": "Waaslandcross Sint-Niklaas",
+      "series": "hg_cross",
+      "location": "Sint-Niklaas, Belgium",
+      "date": "2027-02-13"
+    },
+    {
+      "name": "Brussels Universities Cyclocross",
+      "series": "x2o_trofee",
+      "location": "Brussels, Belgium",
+      "date": "2027-02-14"
+    }
+  ]
+}

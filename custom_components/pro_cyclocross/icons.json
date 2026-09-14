@@ -1,0 +1,7 @@
+{
+  "entity": {
+    "sensor": {
+      "pro_cyclocross": {"default": "mdi:bike"}
+    }
+  }
+}
